@@ -42,3 +42,9 @@ function buttonscript7() {
   console.log("button 7 clicked!");
   document.body.style.backgroundColor = "blue";
 }
+
+function buttonscript8() {
+  console.log("button 8 clicked!");
+  const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+  document.body.style.backgroundColor = randomColor;
+}

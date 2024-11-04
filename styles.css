@@ -2,3 +2,45 @@
   font-family: monospace;
   text-align: center;
 }
+
+#second-header {
+  font-family: monospace;
+  text-align: center;
+}
+
+#paragraph {
+  font-family: monospace;
+  text-align: center;
+}
+
+#cat-button {
+  height: 50px;
+}
+
+#hot-dog-button {
+  height: 50px;
+}
+
+#red-bg-button {
+  height: 50px;
+}
+
+#orange-bg-button {
+  height: 50px;
+}
+
+#yellow-bg-button {
+  height: 50px;
+}
+
+#green-bg-button {
+  height: 50px;
+}
+
+#blue-bg-button {
+  height: 50px;
+}
+
+#random-bg-button {
+  height: 50px;
+}
