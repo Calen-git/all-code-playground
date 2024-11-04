@@ -44,3 +44,13 @@
 #random-bg-button {
   height: 50px;
 }
+
+#button-gif {
+  position: relative;
+  left: 350px;
+}
+
+#button-image {
+  position: relative;
+  left: 350px;
+}
