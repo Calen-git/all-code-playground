@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your Page Title</title>
@@ -10,10 +13,10 @@
   </head>
   <body>
     <!-- Header section -->
-    <header>
+    <header id="main-header">
       <h1>This is my code playground!</h1>
       <nav>
-        <ul>
+        <ul id="main-list">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -23,16 +26,43 @@
 
     <!-- Main content section -->
 
-    <button type="button" onclick="buttonscript() " id="main-button">
-      Click me!
+    <button type="button" onclick="buttonscript1() " id="cat-button">
+      Toggle cat
     </button>
+
+    <button type="button" onclick="buttonscript2() " id="hot-dog-button">
+      Toggle hot dog
+    </button>
+
+    <button type="button" onclick="buttonscript3()" id="red-bg-button">
+      Make Background Red
+    </button>
+
+    <button type="button" onclick="buttonscript4()" id="orange-bg-button">
+      Make Background orange
+    </button>
+
+    <button type="button" onclick="buttonscript5()" id="yellow-bg-button">
+      Make Background Yellow
+    </button>
+
+    <button type="button" onclick="buttonscript6()" id="green-bg-button">
+      Make Background Green
+    </button>
+
+    <button type="button" onclick="buttonscript7()" id="blue-bg-button">
+      Make Background Blue
+    </button>
+
     <main>
       <section>
         <h2>About This Website</h2>
         <p>This is where I go to play with and test code.</p>
       </section>
 
-      <img id="button-image" src="images/01.jpg" />
+      <img id="button-gif" src="images/cat.gif" />
+
+      <img id="button-image" src="images/hotdog.jpg" />
     </main>
 
     <!-- Footer section -->
