@@ -15,42 +15,52 @@
 
 #cat-button {
   height: 50px;
+  font-family: monospace;
 }
 
 #hot-dog-button {
   height: 50px;
+  font-family: monospace;
 }
 
 #red-bg-button {
   height: 50px;
+  font-family: monospace;
 }
 
 #orange-bg-button {
   height: 50px;
+  font-family: monospace;
 }
 
 #yellow-bg-button {
   height: 50px;
+  font-family: monospace;
 }
 
 #green-bg-button {
   height: 50px;
+  font-family: monospace;
 }
 
 #blue-bg-button {
   height: 50px;
+  font-family: monospace;
 }
 
 #random-bg-button {
   height: 50px;
+  font-family: monospace;
 }
 
 #button-gif {
   position: relative;
   left: 350px;
+  display: none;
 }
 
 #button-image {
   position: relative;
   left: 350px;
+  display: none;
 }
