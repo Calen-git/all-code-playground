@@ -48,3 +48,7 @@ function buttonscript8() {
   const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
   document.body.style.backgroundColor = randomColor;
 }
+
+function logavatarstats(avatar) {
+  if (!avatar.stats) {}
+}
