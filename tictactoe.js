@@ -75,8 +75,14 @@ resetButton.addEventListener("click", resetGame);
 
 function resetGame() {
   gameBoard = ["", "", "", "", "", "", "", "", ""];
+
+  cells.forEach((cell) => {
+    cell.textContent = "";
+    cell.classList.remove("winning-cell");
+  });
+
   gameActive = true;
   currentPlayer = "X";
-  cells.forEach((cell) => (cell.textContent = ""));
+
   statusDisplay.textContent = "Player X's turn";
 }
