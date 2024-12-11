@@ -64,3 +64,36 @@
   left: 350px;
   display: none;
 }
+
+.slideshow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+}
+
+.myslide {
+  display: none;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: dimgrey;
+  width: 150px;
+  border-radius: 10px;
+  outline: 5px solid;
+}
+
+.next {
+  position: relative;
+  font-size: 50px;
+}
+
+.prev {
+  position: relative;
+  font-size: 50px;
+}

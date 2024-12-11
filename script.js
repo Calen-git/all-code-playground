@@ -50,5 +50,32 @@ function buttonscript8() {
 }
 
 function logavatarstats(avatar) {
-  if (!avatar.stats) {}
+  if (!avatar.stats) {
+  }
 }
+
+let currentSlide = 0; // Initialize current slide index
+const slides = document.querySelectorAll(".myslide"); // Select all slide elements
+
+// Function to show the current slide and hide others
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.style.display = i === index ? "block" : "none";
+  });
+}
+
+// Navigation button handlers
+function prevbutton() {
+  console.log("Previous button clicked!");
+  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+  showSlide(currentSlide);
+}
+
+function nextbutton() {
+  console.log("Next button clicked!");
+  currentSlide = (currentSlide + 1) % slides.length;
+  showSlide(currentSlide);
+}
+
+// Set the initial slide
+showSlide(currentSlide); // Call AFTER the above declarations
