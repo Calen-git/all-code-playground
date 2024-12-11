@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="tictactoe.css" />
+    <!-- Link to your external CSS file -->
+    <script defer src="script.js"></script>
+    <!-- Link to your JavaScript file -->
+  </head>
+  <body>
+    <header id="ttt-header">
+      <h1>Tic-Tac-Toe</h1>
+      <nav>
+        <ul id="ttt-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="games.html">Games</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="game-container">
+        <div class="board">
+          <!-- Create a 3x3 grid for the Tic-Tac-Toe game -->
+          <div class="cell" data-index="0"></div>
+          <div class="cell" data-index="1"></div>
+          <div class="cell" data-index="2"></div>
+          <div class="cell" data-index="3"></div>
+          <div class="cell" data-index="4"></div>
+          <div class="cell" data-index="5"></div>
+          <div class="cell" data-index="6"></div>
+          <div class="cell" data-index="7"></div>
+          <div class="cell" data-index="8"></div>
+        </div>
+        <div class="game-info">
+          <p id="game-status">Player X's turn</p>
+          <button id="reset-game">Restart Game</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Code Playground</p>
+    </footer>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
