@@ -85,4 +85,6 @@ function resetGame() {
   currentPlayer = "X";
 
   statusDisplay.textContent = "Player X's turn";
+
+  location.reload();
 }
